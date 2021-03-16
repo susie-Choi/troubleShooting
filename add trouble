@@ -1,0 +1,6 @@
+#git 테스트 도중 원격 저장소 이미 존재 시 발생하는 에러
+remote origin already exists.
+
+#대처 방법
+출처 : 구글에서 fatal:remote origin already exists치면 나옴
+git remote rm origin (rm ==> remove)
