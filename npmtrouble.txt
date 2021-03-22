@@ -1,0 +1,26 @@
+npm으로 vue.press 사용하기까지
+windows 10 ver
+
+npm install에서 우선 npm자체가 뜨질 않는다.
+
+방법은 명령 프롬프트에서 따로 npm을 다운받아야 한다.
+참고로 apt-get은 리눅스 명령어라 윈도우에 적용되질 않는다.
+(리눅스/맥 유저들만 가능하다!)
+
+npm을 깔면
+npm install vue
+npm install --global vue-cli
+npm i -g @vue/cli-init
+
+안되면 npm install 다시한다.
+npm run dev를 실행하기 이전에, 먼저 내가 clone한 레포지토리로
+cd [레포지토리] 이렇게 이동해준다음에
+npm run dev 로 해야한다.
+
+참고로 npm run dev == npm run serve(다만 serve는 버전이 다른 경우에 사용되는 명령어라 한다.)
+
+잘 안된다 싶으면 구글에 나와있는 여러 명령어들을 다 실행하다보면 실행된다.
+
+아 그리고 branch를 따로 두지 말고, 아예 수시로 커밋하고 markdown을 확인하기 위하여
+fork를 사용해보려 한다.
+참고자료는 https://engineering-skcc.github.io/github%20pages/github-pages-fork-1/
