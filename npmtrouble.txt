@@ -14,7 +14,14 @@ npm install vue
 npm install --global vue-cli
 npm i -g @vue/cli-init
 
-안되면 npm install 다시한다.
+이렇게 진행하면 안된다..
+에러내역은 'vuepress' is not recognized as an internal or external command, operable program or batch files
+stackoverflow에서 찾아보니 환경변수 에러라는데 다시 세팅해봐야겠다. (환경변수는 이미 세팅되어있는데..?)
+
+에러없이 실행이 되는걸 확인했다면, 이제 사용해야지
+
+--------------------
+
 npm run dev를 실행하기 이전에, 먼저 내가 clone한 레포지토리로
 cd [레포지토리] 이렇게 이동해준다음에
 npm run dev 로 해야한다.
