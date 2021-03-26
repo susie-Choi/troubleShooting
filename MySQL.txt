@@ -1,1 +1,8 @@
-bad handshake problem
+bad handshake problem:
+동일한 버전으로 다운 받은 경우에도 발생하면, 포트 넘버를 확인해야 한다.
+기존에 mysql을 다운받았다가 새로 설치하는 경우는 port num 3306가 사용중이라고 뜨는데, 여기서 다른 포트 넘버를 지정해줄 것이 아닌
+현재 3306를 차지하고 있는 mysql을 kill 해야 한다.
+
+기존에 MySql 중 일부를 다운로드 받은 경우
+리소스 모니터 네트워크에서 포트넘버 3306 의 PID를 봐서 taskkill 로 없애준다.
+https://velog.io/@haenyy3153/MariaDB-%EC%84%A4%EC%B9%98-%EC%8B%9C-TCP-Port-3306-%EC%A4%91%EB%B3%B5-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0
