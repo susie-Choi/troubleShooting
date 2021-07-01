@@ -1,0 +1,6 @@
+live share_ jupyter notebook error
+
+https://github.com/microsoft/vscode-python/issues/15972
+
+"""After python extension update which now comes with pylance as default, i got the same error.
+uninstalled Jupyter, pylance, and python extensions in vscode. then re-installed and everything started working again"""
